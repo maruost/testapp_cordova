@@ -39,6 +39,7 @@
 
   function loadStopCallBack() {
     if (ref != undefined) {
+      navigator.splashscreen.hide();
       ref.show();
     }
   }
